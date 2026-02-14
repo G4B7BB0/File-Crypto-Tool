@@ -1,0 +1,14 @@
+C:\Users\gbert\source\repos\Cifrario\Cifrario\bin\Debug\net8.0\Cifrario.exe
+C:\Users\gbert\source\repos\Cifrario\Cifrario\bin\Debug\net8.0\Cifrario.deps.json
+C:\Users\gbert\source\repos\Cifrario\Cifrario\bin\Debug\net8.0\Cifrario.runtimeconfig.json
+C:\Users\gbert\source\repos\Cifrario\Cifrario\bin\Debug\net8.0\Cifrario.dll
+C:\Users\gbert\source\repos\Cifrario\Cifrario\bin\Debug\net8.0\Cifrario.pdb
+C:\Users\gbert\source\repos\Cifrario\Cifrario\obj\Debug\net8.0\Cifrario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gbert\source\repos\Cifrario\Cifrario\obj\Debug\net8.0\Cifrario.AssemblyInfoInputs.cache
+C:\Users\gbert\source\repos\Cifrario\Cifrario\obj\Debug\net8.0\Cifrario.AssemblyInfo.cs
+C:\Users\gbert\source\repos\Cifrario\Cifrario\obj\Debug\net8.0\Cifrario.csproj.CoreCompileInputs.cache
+C:\Users\gbert\source\repos\Cifrario\Cifrario\obj\Debug\net8.0\Cifrario.dll
+C:\Users\gbert\source\repos\Cifrario\Cifrario\obj\Debug\net8.0\refint\Cifrario.dll
+C:\Users\gbert\source\repos\Cifrario\Cifrario\obj\Debug\net8.0\Cifrario.pdb
+C:\Users\gbert\source\repos\Cifrario\Cifrario\obj\Debug\net8.0\Cifrario.genruntimeconfig.cache
+C:\Users\gbert\source\repos\Cifrario\Cifrario\obj\Debug\net8.0\ref\Cifrario.dll
