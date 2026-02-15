@@ -3,13 +3,13 @@ using System.Security.Cryptography;
 
 class Program
 {
-
+    // Display main menu
     static void MostraMenu()
     {
         Console.WriteLine("=== File Crypto Tool ===");
-        Console.WriteLine("1 - Cifra file");
-        Console.WriteLine("2 - Decifra file");
-        Console.Write("Scelta: ");
+        Console.WriteLine("1 - Encrypt file");
+        Console.WriteLine("2 - Decrypt file");
+        Console.Write("Choice: ");
     }
 
     static void Main()
@@ -19,19 +19,23 @@ class Program
             MostraMenu();
             string scelta = Console.ReadLine();
 
+            // Handle user choice
             switch (scelta)
             {
                 case "1":
                     FileCrypto.GestisciCifratura();
                     break;
+
                 case "2":
                     FileCrypto.GestisciDecifratura();
                     break;
+
                 default:
-                    Console.WriteLine("Scelta non valida.");
+                    Console.WriteLine("Invalid choice.");
                     break;
             }
         }
+        // Handle expected operational errors
         catch (Exception ex) when (
             ex is FileNotFoundException ||
             ex is UnauthorizedAccessException ||
@@ -40,11 +44,12 @@ class Program
             ex is ArgumentException
         )
         {
-            Console.WriteLine("Errore: " + ex + " -- " + ex.Message);
+            Console.WriteLine("Error: " + ex + " -- " + ex.Message);
         }
+        // Handle unexpected errors
         catch (Exception ex)
         {
-            Console.WriteLine("Errore imprevisto: " +  ex + " -- " + ex.Message);
+            Console.WriteLine("Unexpected error: " + ex + " -- " + ex.Message);
         }
     }
 }
